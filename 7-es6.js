@@ -1,6 +1,6 @@
 console.log("\x1b[36m%s\x1b[0m", 'OBJETOS:\n' + '-----------------------------------------')
 // Usando ES6 class()
-console.log("\x1b[34m%s\x1b[0m",'Forma 8: uso de class (ES6):');
+console.log("\x1b[34m%s\x1b[0m",'Forma 10: uso de class (ES6):');
 
 class Clase1 {
     propiedad1 = 'variable de clase?';
