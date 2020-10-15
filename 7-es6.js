@@ -9,7 +9,7 @@ class Clase1 {
     }     
     metodo1(param){ console.log('Clase1->metodo1-> parametro: '+param) }
     // getters y setters:
-    // NOTA: en los settters/getters si no se utiliza el _ provoca que se la función se
+    // NOTA: en los settters/getters si no se utiliza el "_" provoca que se la función se
     // llame a sí misma recursivamente e infinitamente
     get propiedad1 () { return 'PROP1->'+this._propiedad1; }
     get propiedad2 () { return 'PROP2->'+this._propiedad2; }
