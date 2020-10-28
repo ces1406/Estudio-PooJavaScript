@@ -22,7 +22,7 @@ var Objeto1 = (function () { //Objeto1 termina siendo un constructor (?:un const
 }())
 
 var obj1 = new Objeto1('contenido de prop1',{suprop1:'contenido subprop1',subprop2:'contenido subprop2'});
-console.log('obj1.propiedad1: '+obj1.propiedad1+"\x1b[31m%s\x1b[0m",'(se puede ver como no existe "obj1.propiedad1", el atributo no adherió al objeto)')
+console.log('obj1.propiedad1: '+obj1.propiedad1+"\x1b[31m%s\x1b[0m",'(se puede ver como no existe "obj1.propiedad1", propiedad1 no pertenece al scope del objeto)')
 console.log('obj1.metodo1(): '+obj1.metodo1());
 console.log('obj1.metodo2(): '+obj1.metodo2())
 console.log('-----------------------------------------')

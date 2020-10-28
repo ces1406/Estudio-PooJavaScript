@@ -1,7 +1,7 @@
 console.log("\x1b[31m%s\x1b[0m", '\nOBJETOS:\n' + '-----------------------------------------')
 
 //  Usando una funcion que devuelve un objeto creado:
-console.log("\x1b[34m%s\x1b[0m",'Forma 4: uso de un funcion que devuelve un objeto (funcion constructora):');
+console.log("\x1b[34m%s\x1b[0m",'Forma 4: uso de un funcion que devuelve un objeto:');
 function FactoryObjeto(prop1, prop2) {
     var objeto = new Object();
     objeto.propiedad1 = prop1;
