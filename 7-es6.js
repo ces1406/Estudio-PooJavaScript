@@ -10,7 +10,9 @@ class Clase1 {
     metodo1(param){ console.log('Clase1->metodo1-> parametro: '+param) }
     // getters y setters:
     // NOTA: en los settters/getters si no se utiliza el "_" provoca que se la función se
-    // llame a sí misma recursivamente e infinitamente
+    // llame a sí misma recursivamente e infinitamente.-->NO ES ASI:
+    // EL "_" NO SIGNIFICA NADA NI IMPLICA NADA (EN REALIDAD EL GET Y SET SE NOMBRAN DI-FE-REN-TE A LA PROPIEDAD EN SI)
+    // PORQUE SON DOS COSAS DIFERENTES
     get propiedad1 () { return 'PROP1->'+this._propiedad1; }
     get propiedad2 () { return 'PROP2->'+this._propiedad2; }
     set propiedad1 (p1) { this._propiedad1 = '1**'+p1+'**1'; }
